@@ -1,3 +1,4 @@
+# Minimal requirements for initial deployment
 # Core FastAPI dependencies
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
@@ -17,9 +18,8 @@ requests==2.31.0
 openai==1.3.7
 elevenlabs==0.2.26
 
-# Audio processing
-pyttsx3==2.90
+# Basic TTS (lighter dependency)
 gtts==2.4.0
 
-# Whisper alternative (lighter)
-SpeechRecognition==3.10.0
+# Audio processing basics
+pyttsx3==2.90

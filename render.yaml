@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: ai-hotel-assistant
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python backend/main.py
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./hotel_assistant.db
+      - key: HOTEL_NAME
+        value: Grand Plaza Hotel
+      - key: HOTEL_ADDRESS
+        value: 123 Main Street, City, State 12345
+      - key: HOTEL_PHONE
+        value: +1-555-123-4567
+      - key: WIFI_PASSWORD
+        value: GrandPlaza2024
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 8000
+      - key: DEBUG
+        value: false
+      - key: OPENAI_API_KEY
+        fromService:
+          type: web
+          name: ai-hotel-assistant
+          property: OPENAI_API_KEY
+      - key: ELEVENLABS_API_KEY
+        fromService:
+          type: web
+          name: ai-hotel-assistant
+          property: ELEVENLABS_API_KEY
