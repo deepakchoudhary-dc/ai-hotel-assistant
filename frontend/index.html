@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel AI Front Desk Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-hotel"></i>
+                <h1>Grand Plaza Hotel</h1>
+            </div>
+            <p class="tagline">AI Front Desk Assistant</p>
+        </header>
+
+        <!-- Main Chat Interface -->
+        <main class="chat-container">
+            <div class="chat-header">
+                <h2>Welcome! How can I assist you today?</h2>
+                <div class="status-indicators">
+                    <span class="status-indicator" id="text-status">
+                        <i class="fas fa-comment"></i> Text Chat: Ready
+                    </span>
+                    <span class="status-indicator" id="voice-status">
+                        <i class="fas fa-microphone"></i> Voice: Checking...
+                    </span>
+                </div>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-messages" id="chatMessages">
+                <div class="message assistant-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hello! I'm your AI front desk assistant. I can help you with:</p>
+                        <ul>
+                            <li>Room bookings and availability</li>
+                            <li>Check-in and check-out</li>
+                            <li>Hotel amenities and services</li>
+                            <li>Local recommendations</li>
+                            <li>Answering your questions</li>
+                        </ul>
+                        <p>You can type your message or use voice input. How may I assist you?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <div class="input-container">
+                    <input 
+                        type="text" 
+                        id="messageInput" 
+                        placeholder="Type your message here..." 
+                        maxlength="500"
+                    >
+                    <button id="sendButton" class="send-button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                
+                <div class="voice-controls">
+                    <button id="voiceButton" class="voice-button" disabled>
+                        <i class="fas fa-microphone"></i>
+                        <span>Hold to Speak</span>
+                    </button>
+                    <div class="voice-indicator" id="voiceIndicator">
+                        <div class="voice-wave"></div>
+                        <div class="voice-wave"></div>
+                        <div class="voice-wave"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Quick Actions -->
+        <aside class="quick-actions">
+            <h3>Quick Actions</h3>
+            <div class="action-buttons">
+                <button class="action-button" data-message="I'd like to check room availability">
+                    <i class="fas fa-bed"></i>
+                    <span>Check Availability</span>
+                </button>
+                <button class="action-button" data-message="I'd like to check in">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Check In</span>
+                </button>
+                <button class="action-button" data-message="I'd like to check out">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Check Out</span>
+                </button>
+                <button class="action-button" data-message="What amenities do you have?">
+                    <i class="fas fa-swimming-pool"></i>
+                    <span>Amenities</span>
+                </button>
+                <button class="action-button" data-message="Can you recommend nearby restaurants?">
+                    <i class="fas fa-utensils"></i>
+                    <span>Restaurants</span>
+                </button>
+                <button class="action-button" data-message="What's the WiFi password?">
+                    <i class="fas fa-wifi"></i>
+                    <span>WiFi Info</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Loading Indicator -->
+        <div class="loading-overlay" id="loadingOverlay">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Processing your request...</p>
+            </div>
+        </div>
+    </div>    <!-- Audio Element for Playing Responses -->
+    <audio id="audioPlayer" style="display: none;"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>

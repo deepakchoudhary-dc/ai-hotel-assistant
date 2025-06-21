@@ -1,0 +1,220 @@
+{
+  "hotel": {
+    "name": "Grand Plaza Hotel",
+    "address": "123 Main Street, City, State 12345",
+    "phone": "+1-555-123-4567",
+    "email": "info@grandplazahotel.com",
+    "website": "www.grandplazahotel.com",
+    "description": "A modern luxury hotel in the heart of downtown, offering exceptional service and amenities for business and leisure travelers.",
+    "star_rating": 4,
+    "established": 1985,
+    "total_rooms": 200
+  },
+  "amenities": {
+    "general": [
+      "24/7 Front Desk Service",
+      "Complimentary WiFi Throughout Hotel",
+      "Concierge Services",
+      "Multilingual Staff",
+      "Luggage Storage",
+      "Laundry and Dry Cleaning Service",
+      "Currency Exchange",
+      "Newspaper Delivery",
+      "Wake-up Call Service"
+    ],
+    "recreation": [
+      "Swimming Pool (6 AM - 10 PM)",
+      "Fitness Center (5 AM - 11 PM)",
+      "Spa Services (by appointment)",
+      "Rooftop Terrace",
+      "Library/Reading Room"
+    ],
+    "dining": [
+      "The Plaza Grill Restaurant",
+      "Lobby Bar",
+      "24/7 Room Service",
+      "Coffee Shop",
+      "Private Dining Rooms"
+    ],
+    "business": [
+      "Business Center (24/7)",
+      "Meeting Rooms (8 rooms)",
+      "Conference Facilities",
+      "Audio/Visual Equipment",
+      "High-Speed Internet",
+      "Printing and Fax Services"
+    ],
+    "transportation": [
+      "Valet Parking ($25/night)",
+      "Airport Shuttle (surcharge)",
+      "Car Rental Desk",
+      "Taxi Service"
+    ]
+  },
+  "room_types": [
+    {
+      "type": "standard",
+      "name": "Standard Room",
+      "size_sqft": 350,
+      "max_occupancy": 2,
+      "base_price": 120.00,
+      "beds": "1 Queen or 2 Twin beds",
+      "view": "City view",
+      "amenities": [
+        "Free WiFi",
+        "42-inch LED TV",
+        "Air Conditioning",
+        "Mini Refrigerator",
+        "Coffee Maker",
+        "Work Desk",
+        "Private Bathroom with Shower",
+        "Hair Dryer",
+        "Iron and Ironing Board",
+        "Telephone"
+      ]
+    },
+    {
+      "type": "deluxe",
+      "name": "Deluxe Room",
+      "size_sqft": 450,
+      "max_occupancy": 3,
+      "base_price": 180.00,
+      "beds": "1 King or 2 Queen beds",
+      "view": "City or partial harbor view",
+      "amenities": [
+        "Free WiFi",
+        "50-inch LED TV",
+        "Air Conditioning",
+        "Mini Refrigerator",
+        "Coffee Maker",
+        "Work Desk",
+        "Balcony",
+        "In-room Safe",
+        "Private Bathroom with Bathtub and Shower",
+        "Hair Dryer",
+        "Bathrobes and Slippers",
+        "Iron and Ironing Board",
+        "Telephone"
+      ]
+    },
+    {
+      "type": "suite",
+      "name": "Suite",
+      "size_sqft": 750,
+      "max_occupancy": 4,
+      "base_price": 350.00,
+      "beds": "1 King bed + Sofa bed",
+      "view": "Harbor or mountain view",
+      "amenities": [
+        "Free WiFi",
+        "55-inch LED TV in bedroom + 42-inch TV in living area",
+        "Air Conditioning",
+        "Full Refrigerator",
+        "Coffee Maker and Espresso Machine",
+        "Work Desk",
+        "Separate Living Area",
+        "Balcony",
+        "In-room Safe",
+        "Kitchenette with Microwave",
+        "Private Bathroom with Jacuzzi Tub and Shower",
+        "Hair Dryer",
+        "Luxury Bathrobes and Slippers",
+        "Iron and Ironing Board",
+        "Multiple Telephones"
+      ]
+    },
+    {
+      "type": "presidential",
+      "name": "Presidential Suite",
+      "size_sqft": 1200,
+      "max_occupancy": 6,
+      "base_price": 750.00,
+      "beds": "1 King bed + 2 Queen sofa beds",
+      "view": "Panoramic city and harbor view",
+      "amenities": [
+        "Free WiFi",
+        "65-inch LED TV in master bedroom + 55-inch TVs in living and dining areas",
+        "Air Conditioning",
+        "Full Kitchen with Premium Appliances",
+        "Coffee Maker and Espresso Machine",
+        "Executive Work Desk",
+        "Separate Living and Dining Areas",
+        "Private Balcony with Outdoor Seating",
+        "In-room Safe",
+        "Full Kitchen",
+        "Master Bathroom with Jacuzzi Tub and Separate Shower",
+        "Guest Bathroom",
+        "Hair Dryer",
+        "Premium Bathrobes and Slippers",
+        "Iron and Ironing Board",
+        "Multiple Telephones",
+        "Butler Service",
+        "Complimentary Airport Transfer"
+      ]
+    }
+  ],
+  "services": {
+    "front_desk": {
+      "hours": "24/7",
+      "services": [
+        "Check-in/Check-out",
+        "Reservation Management",
+        "Guest Information",
+        "Key Card Replacement",
+        "Safe Deposit Box",
+        "Mail and Package Handling",
+        "Tourist Information",
+        "Transportation Arrangements"
+      ]
+    },
+    "housekeeping": {
+      "hours": "6 AM - 10 PM",
+      "services": [
+        "Daily Room Cleaning",
+        "Turndown Service (suites)",
+        "Extra Towels and Linens",
+        "Laundry Service",
+        "Dry Cleaning",
+        "Shoe Shine"
+      ]
+    },
+    "concierge": {
+      "hours": "7 AM - 11 PM",
+      "services": [
+        "Restaurant Reservations",
+        "Entertainment Tickets",
+        "Tour Bookings",
+        "Transportation Arrangements",
+        "Shopping Assistance",
+        "Local Recommendations",
+        "Special Event Planning"
+      ]
+    }
+  },
+  "policies": {
+    "check_in": "3:00 PM",
+    "check_out": "11:00 AM",
+    "late_checkout": {
+      "available": true,
+      "until": "2:00 PM",
+      "fee": 50.00
+    },
+    "cancellation": "24 hours before arrival",
+    "pet_policy": {
+      "allowed": true,
+      "fee": 50.00,
+      "restrictions": "Maximum 2 pets per room, under 50 lbs each"
+    },
+    "smoking": "Non-smoking hotel (designated outdoor areas available)",
+    "age_requirement": "18 years or older to check in"
+  },
+  "contact": {
+    "reservations": "+1-555-123-4567",
+    "front_desk": "+1-555-123-4567",
+    "concierge": "+1-555-123-4568",
+    "restaurant": "+1-555-123-4569",
+    "room_service": "Extension 777",
+    "housekeeping": "Extension 555",
+    "emergency": "Extension 911"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "faqs": [
+    {
+      "question": "What time is check-in and check-out?",
+      "answer": "Check-in is at 3:00 PM and check-out is at 11:00 AM. Late check-out is available until 2:00 PM for an additional $50 fee."
+    },
+    {
+      "question": "What's the WiFi password?",
+      "answer": "The WiFi network is 'GrandPlaza_Guest' and the password is 'GrandPlaza2024'. The connection is complimentary for all guests."
+    },
+    {
+      "question": "Do you have parking available?",
+      "answer": "Yes, we offer valet parking for $25 per night. Self-parking is not available, but our valet service is available 24/7."
+    },
+    {
+      "question": "What amenities do you have?",
+      "answer": "Our amenities include: 24/7 front desk, complimentary WiFi, fitness center (5 AM - 11 PM), swimming pool (6 AM - 10 PM), restaurant 'The Plaza Grill', 24/7 room service, business center, concierge services, and valet parking."
+    },
+    {
+      "question": "Are pets allowed?",
+      "answer": "Yes, we are pet-friendly! We welcome pets with an additional fee of $50 per night. Please let us know in advance if you're bringing a pet."
+    },
+    {
+      "question": "What are your restaurant hours?",
+      "answer": "The Plaza Grill serves breakfast from 6:00 AM to 10:00 AM, lunch from 11:00 AM to 3:00 PM, and dinner from 5:00 PM to 10:00 PM. Room service is available 24/7."
+    },
+    {
+      "question": "Do you have a gym or fitness center?",
+      "answer": "Yes, our fitness center is open from 5:00 AM to 11:00 PM daily. It features modern cardio equipment, weight machines, and free weights."
+    },
+    {
+      "question": "What are the pool hours?",
+      "answer": "Our swimming pool is open from 6:00 AM to 10:00 PM daily. Pool towels are provided at no additional charge."
+    },
+    {
+      "question": "Do you offer room service?",
+      "answer": "Yes, we offer 24/7 room service. You can find the room service menu in your room or call extension 777 from your room phone."
+    },
+    {
+      "question": "How do I connect to the WiFi?",
+      "answer": "Connect to the 'GrandPlaza_Guest' network and use password 'GrandPlaza2024'. If you experience any issues, please contact the front desk."
+    },
+    {
+      "question": "Do you have a business center?",
+      "answer": "Yes, our business center is located on the ground floor and is available 24/7. It includes computers, printers, and meeting rooms that can be reserved."
+    },
+    {
+      "question": "Can I get extra towels or toiletries?",
+      "answer": "Absolutely! Please call housekeeping at extension 555 or the front desk, and we'll be happy to bring additional towels, toiletries, or other amenities to your room."
+    },
+    {
+      "question": "Do you offer wake-up calls?",
+      "answer": "Yes, we provide wake-up call service. You can request one by calling the front desk or using the phone in your room. We also have alarm clocks in every room."
+    },
+    {
+      "question": "Is there a safe in the room?",
+      "answer": "Yes, all Deluxe rooms, Suites, and Presidential Suites have in-room safes. Standard rooms do not have safes, but we can store valuables at the front desk."
+    },
+    {
+      "question": "What's nearby the hotel?",
+      "answer": "We're located in the heart of downtown, within walking distance of shopping, restaurants, and attractions. Our concierge can provide detailed recommendations and directions."
+    }
+  ]
+}
